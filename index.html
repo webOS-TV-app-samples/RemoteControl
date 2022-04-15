@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+@font-face {
+	font-family: "Miso";
+	src: local("/font/miso.otf")
+}
+
+body {
+		width: 100%; 
+		height: 100%;
+		background-color: #202020;
+} 
+
+div {
+	    position:absolute; 
+		height:100%; 
+		width:100%;
+		display: table;
+		font-size: 60px;
+		color: #ffffff;
+}
+
+h1 {
+	    display: table-cell;
+		vertical-align: middle;
+		text-align:center;
+		color: #FFFFFF;
+}
+
+lg_red { 
+		color: #d80546;		
+
+}
+
+</style>
+<script>
+	document.addEventListener("keydown", function(inEvent){
+		var message = "<h1>" + "Keycode is <lg_red>" + inEvent.keyCode + "</lg_red></h1>"+ "</br>";
+		document.getElementById("results").innerHTML = message;
+	});
+</script>
+</head>
+<body>
+	<div id="results">
+		<h1>Press a Key</h1>
+	</div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+    "id": "com.lgdev.keycodesample",
+    "version": "2.0.0",
+    "vendor": "LG Developer",
+    "type": "web",
+    "main": "index.html",
+    "title": "KeyCode Sample",
+    "icon": "icon.png",
+    "largeIcon": "largeIcon.png",
+	"bgImage": "launchBGImage.png",
+    "uiRevision":2
+}
+
