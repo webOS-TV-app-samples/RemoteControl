@@ -1,0 +1,10 @@
+{
+  "id": "com.sample.mrcu",
+  "version": "1.0.3",
+  "type": "web",
+  "main": "index.html",
+  "title": "app for mrcu",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "resolution": "1280x720"
+}
