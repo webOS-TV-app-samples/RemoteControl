@@ -1,9 +1,9 @@
 {
-  "id": "com.sample.mrcu",
+  "id": "com.sample.remotecontrol",
   "version": "1.0.0",
   "type": "web",
   "main": "index.html",
-  "title": "app for mrcu",
+  "title": "app for remote control",
   "icon": "icon.png",
   "largeIcon": "largeIcon.png"
 }
